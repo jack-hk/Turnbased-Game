@@ -1,5 +1,11 @@
 #include "Entity.h"
 
+enum enemyType {
+	dummyType,
+	warriorType,
+	skeletonType
+};
+
 void Entity::SpawnEnemy(int type) {
 	Enemy NewEnemy;
 

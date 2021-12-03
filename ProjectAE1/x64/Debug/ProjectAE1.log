@@ -1,5 +1,36 @@
 ﻿  Enemy.cpp
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(14,9): error C2065: 'Enemy': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(14,2): error C2923: 'std::vector': 'Enemy' is not a valid template type argument for parameter '_Ty'
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(14): message : see declaration of 'Enemy'
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(14,2): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : see declaration of 'std::vector'
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(23,2): error C2065: 'Enemy': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(23,8): error C2146: syntax error: missing ';' before identifier 'onj'
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(23,8): error C2065: 'onj': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(24,17): error C2065: 'skeletonType': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(25,10): error C2065: 'onj': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Enemy.cpp(41,8): error C2663: 'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
   Player.cpp
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(14,9): error C2065: 'Enemy': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(14,2): error C2923: 'std::vector': 'Enemy' is not a valid template type argument for parameter '_Ty'
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(14): message : see declaration of 'Enemy'
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(14,2): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : see declaration of 'std::vector'
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(23,2): error C2065: 'Enemy': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(23,8): error C2146: syntax error: missing ';' before identifier 'onj'
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(23,8): error C2065: 'onj': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(24,17): error C2065: 'skeletonType': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(25,10): error C2065: 'onj': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Player.cpp(15,8): error C2663: 'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
   main.cpp
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(14,9): error C2065: 'Enemy': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(14,2): error C2923: 'std::vector': 'Enemy' is not a valid template type argument for parameter '_Ty'
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(14): message : see declaration of 'Enemy'
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(14,2): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : see declaration of 'std::vector'
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(23,2): error C2065: 'Enemy': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(23,8): error C2146: syntax error: missing ';' before identifier 'onj'
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(23,8): error C2065: 'onj': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(24,17): error C2065: 'skeletonType': undeclared identifier
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.h(25,10): error C2065: 'onj': undeclared identifier
   Generating Code...
-  ProjectAE1.vcxproj -> C:\Users\jackh\Documents\Y1S1CUP455\x64\Debug\ProjectAE1.exe
