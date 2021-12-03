@@ -5,5 +5,5 @@ void Entity::SpawnPlayer(string name, int health, int energy) {
 	Player.name = name;
 	Player.health = health;
 	Player.energy = energy;
-	Entity.push_back(Player);
+	//Entity.push_back(Player);
 }
