@@ -1,27 +1,12 @@
 #include "Game.h"
 #include "UI.h"
 
+Common UICmn;
+
 using namespace std;
 
-void UI::ClearConsole() { //clears via console API, without using 'system'
-    COORD topLeft = { 0, 0 };
-    HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
-    CONSOLE_SCREEN_BUFFER_INFO screen;
-    DWORD written;
-
-    GetConsoleScreenBufferInfo(console, &screen);
-    FillConsoleOutputCharacterA(
-        console, ' ', screen.dwSize.X * screen.dwSize.Y, topLeft, &written
-    );
-    FillConsoleOutputAttribute(
-        console, FOREGROUND_GREEN | FOREGROUND_RED | FOREGROUND_BLUE,
-        screen.dwSize.X * screen.dwSize.Y, topLeft, &written
-    );
-    SetConsoleCursorPosition(console, topLeft);
-}
-
 void UI::DisplayMenu(int menuID) {
-    ClearConsole();
+    UICmn.ClearConsole();
     switch (menuID) {
     case menuMain:
         cout << "1) Start" << endl;
@@ -43,14 +28,14 @@ void UI::DisplayMenu(int menuID) {
         cout << "2) Main Menu" << endl;
         break;
     case menuCredits:
-        cout << "Made by Jack Hughes-King" << endl;
+        cout << "Made by Jack" << endl;
         cout << "1) Back" << endl;
         break;
     }
 }
 
 void UI::DisplayCutscene(int cutsceneID) {
-    ClearConsole();
+    UICmn.ClearConsole();
     switch (cutsceneID) {
     case cutsceneTrainingMode:
         cout << "You enter a well lit hall full of training equipment." << endl;
@@ -108,11 +93,11 @@ void GameModeMenu() {
         choice = GameModeMenu.GetChoice(menuID::menuMode);
         switch (choice) {
         case 1:
-            GameModeMenu.ClearConsole();
+            UICmn.ClearConsole();
             StartGame(endlessBattle);
             break;
         case 2:
-            GameModeMenu.ClearConsole();
+            UICmn.ClearConsole();
             StartGame(trainingBattle);
             break;
         case 3:

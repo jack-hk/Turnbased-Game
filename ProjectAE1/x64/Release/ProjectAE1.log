@@ -1,12 +1,12 @@
 ﻿  AI.cpp
-  Battle.cpp
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\AI.cpp(14,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\AI.cpp(20,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   Entity.cpp
+C:\Users\jackh\Documents\Y1S1CUP455\ProjectAE1\Entity.cpp(147,11): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   Game.cpp
-  main.cpp
-  UI.cpp
   Generating code
-  32 of 32 functions (100.0%) were compiled.
-    16 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  39 of 223 functions (17.5%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    10 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   ProjectAE1.vcxproj -> C:\Users\jackh\Documents\Y1S1CUP455\x64\Release\ProjectAE1.exe
