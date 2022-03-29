@@ -22,4 +22,6 @@ enum actionChoice {
 	healPassive
 };
 
-	
+struct Action {
+	void ChooseAction(int choice, int self, int target);
+};

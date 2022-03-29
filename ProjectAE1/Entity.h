@@ -2,16 +2,6 @@
 
 #include <vector>
 
-static const int PLAYER = 0;
-static const int ENEMY1 = 1;
-static const int ENEMY2 = 2;
-
-static const int MIN_NORMAL_DMG = 1;
-static const int MAX_NORMAL_DMG = 10;
-
-static const int MIN_SPECIAL_DMG = 5;
-static const int MAX_SPECIAL_DMG = 20;
-
 enum entityType {
 	classPlayer,
 	warriorEnemy,
@@ -30,25 +20,20 @@ struct Entity {
 
 class EntityHandler {
 	std::vector<Entity> Entities;
-public:
+
 	//simple functions
 	int GetEnergy(int target);
 	int GetHealth(int target);
-	std::string GetName(int name);
-	int GetController(int target);
 	int DamageEntity(int damage, int target);
 	int HealEntity(int heal, int target);
 	int ReduceEnergy(int reduction, int target);
 	int AddEnergy(int addition, int target);
-
+public:
 	//entity
-	int AIBrain(int self);
-	void ChooseAction(int choice, int self, int target);
 	void SpawnEntity(int entityType);
 	void ListAllEntity();
 
 	//checks
-	int Turn(int gameMode);
 	bool IsDead(int target); 
 
 	//actions
